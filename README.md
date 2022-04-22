@@ -13,7 +13,8 @@ We using the mysql or postgress database. And we using WebRTC protocol for video
 * Real estate tour
 * Meetup
 
-````npx cap add electron
+```
+npx cap add electron
 npx cap copy
 npx cap open electron
 
@@ -21,3 +22,15 @@ npx cap add android
 npx cap sync
 npx cap copy
 npx cap open android
+```
+ You can ask questions and initiate [discussions](https://github.com/kmkz-69/chatr.fr/discussions) about Prisma-related topics in the `prisma` repository on GitHub.
+
+👉 [**Ask a question**](https://github.com/kmkz-69/chatr.fr/discussions/new)
+
+<h3 align="left">Support:</h3>
+<p><a href="https://ko-fi.com/chatr"> 
+  <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="chatr" />
+  </a>
+</p>
+
+- [Jason Twitter](https://twitter.com/chatrjason/)
