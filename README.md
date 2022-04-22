@@ -1,8 +1,9 @@
-![Chatr Stack](https://raw.githubusercontent.com/kmkz-69/vscode-snippet-copilote/main/icon.png)
+![Chatr](https://raw.githubusercontent.com/kmkz-69/vscode-snippet-copilote/main/icon.png)
 # chatr
 is a video calling app bundle with screen sharing and whiteboard collaboration.
 You can deploy web (PWA), Android, Mac, Windows, and Linux binaries from this package
 
+![Chatr](https://github.com/kmkz-69/chatr.fr/blob/main/ScreenShot.png)
 The frontend app is developed on the Ionic framework with React and the backend API is developed on Express.js.
 Golang ,Rust Backend coming soon.
 We using the mysql or postgress database. And we using WebRTC protocol for video calling and Websockets protocol for real-time communication
