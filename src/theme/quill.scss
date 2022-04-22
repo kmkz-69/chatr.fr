@@ -1,0 +1,35 @@
+@import '~quill/dist/quill.snow.css';
+@import '../scss/mixins';
+
+.ql-snow {
+  border-color: #ddd;
+}
+
+.ql-toolbar {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.ql-container {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 10px;
+
+  .ql-editor {
+    @include quillContent;
+    font-family: var(--ion-font-family);
+    font-size: 16px;
+  }
+}
+
+.ql-align-right {
+  text-align: right;
+}
+
+.ql-align-center {
+  text-align: center;
+}
+
+.ql-align-justify {
+  text-align: justify;
+}

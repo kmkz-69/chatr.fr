@@ -1,0 +1,7 @@
+{
+  "name": "Chatr",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

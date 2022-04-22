@@ -1,0 +1,31 @@
+@mixin boxShadow {
+  box-shadow: 1px 5px 9px 0 rgba(101, 101, 101, 0.15);
+}
+
+@mixin quillContent {
+  h1 {
+    font-size: 1.35em;
+    margin: 20px 0;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+
+  p {
+    line-height: 1.6em;
+    margin-bottom: 30px;
+  }
+
+  li {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+  }
+}
+
+@mixin whiteboardMenu {
+  border: 1px solid var(--ion-color-light-shade);
+  border-radius: 2px;
+  background: var(--ion-color-light);
+}

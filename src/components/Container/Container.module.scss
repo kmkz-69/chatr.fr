@@ -1,0 +1,24 @@
+.container {
+  margin-bottom: 50px;
+
+  &.small {
+    width: 250px;
+  }
+
+  &.regular {
+    width: 725px;
+  }
+
+  &.full {
+    width: 100vw;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .container {
+    &.regular {
+      width: 100%;
+    }
+  }
+}

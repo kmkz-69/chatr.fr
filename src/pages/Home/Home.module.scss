@@ -1,0 +1,17 @@
+.home {
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+
+    a {
+      text-decoration: none;
+      font-size: 0.975em;
+    }
+
+    .copyright {
+      margin-top: 2px;
+      font-size: 0.875em;
+      color: var(--ion-color-dark-tint);
+    }
+  }
+}

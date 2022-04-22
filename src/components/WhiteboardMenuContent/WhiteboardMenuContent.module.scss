@@ -1,0 +1,18 @@
+@import '../../scss/mixins';
+$contentHeight: 43px;
+
+.whiteboardMenuContent {
+  @include whiteboardMenu;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 61px;
+  width: 248px;
+  height: $contentHeight;
+  padding: 6px 10px;
+  margin-bottom: 5px;
+
+  &.brushSizeWrapper {
+    margin-top: $contentHeight;
+  }
+}

@@ -1,0 +1,10 @@
+.floatingAnimation {
+  width: 100%;
+  height: var(--app-floating-animation-height);
+  margin-top: -1px; // SVG line fix
+  transform: rotate(180deg);
+
+  &.flip {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,15 @@
+.host {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+
+  .user {
+    width: 100%;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+}

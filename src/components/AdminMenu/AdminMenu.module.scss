@@ -1,0 +1,20 @@
+.adminMenu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+
+  .menuItems {
+    background-color: var(--ion-color-light);
+    padding: 5px 10px;
+    border-radius: 20px;
+
+    .menuItem {
+      margin: 0 10px;
+      text-decoration: none;
+
+      &.active {
+        font-weight: 500;
+      }
+    }
+  }
+}

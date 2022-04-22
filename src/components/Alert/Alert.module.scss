@@ -1,0 +1,54 @@
+@import '../../scss/mixins';
+
+.alert {
+  @include boxShadow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  height: 40px;
+  padding: 0 25px;
+  border-radius: 20px;
+
+  &.cursor {
+    cursor: pointer;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      font-size: 1.25em;
+    }
+
+    .message {
+      margin-left: 10px;
+      white-space: nowrap;
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 25px;
+
+    .cancel {
+      color: var(--ion-color-medium);
+      cursor: pointer;
+    }
+
+    .proceed {
+      color: var(--ion-color-danger);
+      margin-left: 10px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+  }
+}

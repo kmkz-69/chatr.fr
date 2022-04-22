@@ -1,0 +1,7 @@
+@import '../../scss/mixins';
+
+.privacy {
+  .content {
+    @include quillContent;
+  }
+}

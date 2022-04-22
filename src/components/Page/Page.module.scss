@@ -1,0 +1,36 @@
+
+$floatingAnimationHeight: var(--app-floating-animation-height);
+$copyrightHeight: var(--app-copyright-height);
+$footerHeight: calc(#{$floatingAnimationHeight} + #{$copyrightHeight});
+$mainMinHeight: calc(100vh - #{$footerHeight});
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  animation-duration: 1s;
+  animation-name: fadeIn;
+  position: relative;
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: $mainMinHeight;
+
+    &.invert {
+      background: var(--ion-color-primary);
+    }
+
+    &.full {
+      justify-content: start;
+    }
+  }
+}

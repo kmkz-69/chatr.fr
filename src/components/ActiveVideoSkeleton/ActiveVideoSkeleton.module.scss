@@ -1,0 +1,12 @@
+.activeVideoSkeleton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  .icon {
+    position: absolute;
+    font-size: 4em;
+    color: var(--ion-color-medium-tint);
+  }
+}

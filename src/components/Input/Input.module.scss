@@ -1,0 +1,14 @@
+@import '../../scss/mixins';
+
+.input {
+  @include boxShadow;
+  appearance: none; // Shadow fix in iOS
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 20px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 9px 0;
+  background-color: #fff;
+}

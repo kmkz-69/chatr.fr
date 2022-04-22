@@ -1,0 +1,62 @@
+$fullVideoBorder: 3px;
+$squareVideoBorder: 2px;
+
+.videoBlock {
+  position: relative;
+  background: var(--ion-color-dark);
+
+  &.full {
+    width: 100%;
+    padding-bottom: calc(100vh - (2 * #{$fullVideoBorder}));
+    border: $fullVideoBorder solid var(--ion-color-primary);
+
+    &.mobile {
+      padding-bottom: calc((100vw / (16/9)) - (2 * #{$fullVideoBorder}));
+    }
+  }
+
+  &.square {
+    width: 100%;
+    padding-bottom: 100%;
+    border: $squareVideoBorder solid #000;
+  }
+
+  .content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+$fullVideoBorder: 3px;
+$squareVideoBorder: 2px;
+
+.videoBlock {
+  position: relative;
+  background: var(--ion-color-dark);
+
+  &.full {
+    width: 100%;
+    padding-bottom: calc(100vh - (2 * #{$fullVideoBorder}));
+    border: $fullVideoBorder solid var(--ion-color-primary);
+
+    &.mobile {
+      padding-bottom: calc((100vw / (16/9)) - (2 * #{$fullVideoBorder}));
+    }
+  }
+
+  &.square {
+    width: 100%;
+    padding-bottom: 100%;
+    border: $squareVideoBorder solid #000;
+  }
+
+  .content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}

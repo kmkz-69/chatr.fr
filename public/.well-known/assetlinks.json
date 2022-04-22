@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.chatr.fr",
+      "sha256_cert_fingerprints": [
+        "A0:BA:A2:55:71:20:17:D1:55:A8:14:22:E5:27:A5:24:4E:4E:21:B7:41:76:9C:07:C4:58:D9:AA:52:A9:68:94"
+      ]
+    }
+  }
+]

@@ -1,0 +1,13 @@
+@import '../../scss/mixins';
+
+.whiteboardMenu {
+  @include whiteboardMenu;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+  margin: auto;
+  height: fit-content;
+}

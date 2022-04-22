@@ -1,0 +1,31 @@
+.menuItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: var(--app-menu-height);
+  background-color: var(--ion-color-primary);
+
+  .item {
+    margin-right: 27.5px;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &.top {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  &.bottom {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  &.mobile {
+    width: 100%;
+    border-radius: 0;
+  }
+}

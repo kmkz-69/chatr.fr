@@ -1,0 +1,12 @@
+$size: 35px;
+
+.floatButton {
+  .button {
+    width: $size;
+    height: $size;
+
+    .icon {
+      font-size: 1.25em;
+    }
+  }
+}

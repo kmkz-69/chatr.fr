@@ -1,0 +1,16 @@
+.whiteboardBrushColorItem {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  border-radius: 50%;
+  transition: transform 0.4s;
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.active {
+    transform: scale(0.7);
+  }
+}

@@ -1,0 +1,29 @@
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: var(--app-copyright-height);
+  text-align: center;
+
+  .link {
+    text-decoration: none;
+    font-size: 0.975em;
+    color: var(--ion-color-dark-tint);
+  }
+
+  .text {
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-size: 0.875em;
+    color: var(--ion-color-dark-tint);
+  }
+
+  &.invert {
+    background: var(--ion-color-primary);
+  
+    .link,
+    .text {
+      color: #fff;
+    }
+  }
+}

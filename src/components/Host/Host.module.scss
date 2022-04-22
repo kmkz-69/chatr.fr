@@ -1,0 +1,35 @@
+.host {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+  .user {
+    .name {
+      font-size: 1.2em;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: var(--ion-color-dark);
+    }
+
+    .username {
+      font-size: 1em;
+    }
+
+    .lastMeeting {
+      .heading {
+        font-size: 1em;
+        margin-bottom: 3px;
+        color: var(--ion-color-dark-tint);
+      }
+
+      .time {
+        font-size: 0.95em;
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+}

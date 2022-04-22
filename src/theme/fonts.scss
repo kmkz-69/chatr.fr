@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Chatr';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/regular.woff2') format('woff2'),
+    url('/assets/fonts/regular.woff') format('woff'),
+    url('/assets/fonts/regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Chatr';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/bold.woff2') format('woff2'),
+    url('/assets/fonts/bold.woff') format('woff'),
+    url('/assets/fonts/bold.ttf') format('truetype');
+}
