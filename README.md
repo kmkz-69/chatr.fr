@@ -1,6 +1,6 @@
 ![Chatr](https://raw.githubusercontent.com/kmkz-69/vscode-snippet-copilote/main/icon.png)
 # chatr
-is a video calling app bundle with screen sharing and whiteboard collaboration.
+is a video calling app bundle with Peer to Peer , screen sharing and whiteboard collaboration.
 You can deploy web (PWA), Android, Mac, Windows, and Linux binaries from this package
 
 ![Chatr](https://github.com/kmkz-69/chatr.fr/blob/main/ScreenShot.png)
