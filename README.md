@@ -23,7 +23,7 @@ npx cap sync
 npx cap copy
 npx cap open android
 ```
- You can ask questions and initiate [discussions](https://github.com/kmkz-69/chatr.fr/discussions) about Prisma-related topics in the `prisma` repository on GitHub.
+ You can ask questions and initiate [discussions](https://github.com/kmkz-69/chatr.fr/discussions) about Chatr topics in the `chatr` repository on GitHub.
 
 👉 [**Ask a question**](https://github.com/kmkz-69/chatr.fr/discussions/new)
 
