@@ -6,7 +6,7 @@ You can deploy web (PWA), Android, Mac, Windows, and Linux binaries from this pa
 ![Chatr](https://github.com/kmkz-69/chatr.fr/blob/main/ScreenShot.png)
 The frontend app is developed on the Ionic framework with React and the backend API is developed on Express.js.
 Golang ,Rust Backend coming soon.
-We using the mysql or postgress database. And we using WebRTC protocol for video calling and Websockets protocol for real-time communication
+We using the sqlite mysql or postgress database. And we using WebRTC protocol for video calling and Websockets protocol for real-time communication
 
 # Use Case
 * Live events
