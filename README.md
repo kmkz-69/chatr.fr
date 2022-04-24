@@ -32,8 +32,7 @@ npx cap open android
   <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="chatr" />
   </a>
 </p>
-
-- [Jason Twitter](https://twitter.com/chatrjason/)  <br>
+<br>
 
 👉 [**BACKEND NODEJS **](https://github.com/kmkz-69/Chatr-Backend.git) <br>
 👉 This is still in dev mod  [**BACKEND Golang **](https://github.com/kmkz-69/GO-chatr-app-backend.git)
