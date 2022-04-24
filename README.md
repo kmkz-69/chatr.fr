@@ -36,4 +36,4 @@ npx cap open android
 - [Jason Twitter](https://twitter.com/chatrjason/)  <br>
 
 👉 [**BACKEND NODEJS **](https://github.com/kmkz-69/Chatr-Backend.git) <br>
-👉 [**BACKEND Golang **](https://github.com/kmkz-69/GO-chatr-app-backend.git)
+👉 This is still in dev mod  [**BACKEND Golang **](https://github.com/kmkz-69/GO-chatr-app-backend.git)
