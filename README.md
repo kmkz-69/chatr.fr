@@ -33,6 +33,7 @@ npx cap open android
   </a>
 </p>
 
-- [Jason Twitter](https://twitter.com/chatrjason/) 
+- [Jason Twitter](https://twitter.com/chatrjason/)  <br>
 
-👉 [**BACKEND NODEJS **](https://github.com/kmkz-69/Chatr-Backend.git)
+👉 [**BACKEND NODEJS **](https://github.com/kmkz-69/Chatr-Backend.git) <br>
+👉 [**BACKEND Golang **](https://github.com/kmkz-69/GO-chatr-app-backend.git)
